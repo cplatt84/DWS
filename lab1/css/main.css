@@ -1,0 +1,112 @@
+/*----- Main -----*/
+
+body{
+
+	font: Helvetica;
+	background: #7c9af2 url(../img/background.jpeg);
+	padding:0;
+	margin:0;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*----- Navigation -----*/
+
+
+ul a {
+
+	color:#ffffff;
+	text-decoration:none;
+	font-size: 25px;
+}
+
+ul li {
+	list-style-type:none;
+	display: inline;
+	padding: 19px;
+}
+
+a:link {
+	color:#ffff00;
+}      /* unvisited link */
+
+a:visited {
+	color:#ff10cc;
+}   /* visited link */
+
+a:hover {
+	color:#05b0fa;
+}     /* mouse over link */
+
+a:active {
+	color:#ffffff;
+}    /* selected link */
+
+
+/*----- Headers -----*/
+
+h1,h2,h3 {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 60px;
+	color: #ff0fcb;
+	margin-bottom: 1em;
+}
+
+
+h2 {
+	font-size: 40px;
+	color: #06b1fa;
+	margin-top: 1em;
+}
+
+
+h3 {
+	font-size: 30px;
+	color: #f7f739;
+	margin-top: 1em;
+}
+
+
+
+/*----- Paragraphs -----*/
+
+p{
+	color: #ffffff;
+}
+
+.pbackground{
+	background:#000000;
+}
+
+
+p:first-letter 
+{
+	color:#ffffff;
+	font-size: 60px;
+}
+
+#design{
+	color: #06b1fa;
+	font-weight: bold;
+}
+
+/*----- List -----*/
+
+
+
+ol li {
+
+	color: white;
+	font-weight: bold;
+	list-style-type:none;
+	padding: 19px;
+}
