@@ -21,13 +21,45 @@ text-indent:50px;
 text-transform:capitalize
 */
 
+/*----- Main -----*/
 
 body {
 	background-image: url("../images/background.gif");
 	font-size:  62.5%;
 }
 
+/*----- Navigation -----*/
 
+ul li{
+	font-size: 3em;
+	display: inline;
+	padding-right: 20px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+a:link {
+	color:#0bb5f2;
+}
+
+a:visited {
+	color:#00ffd9;
+}
+
+a:hover {
+	color:#ffffff;
+}
+
+a:active {
+	color:#ffffff;
+}
+
+/*----- Headers -----*/
 
 h1, h2, h3 {
 	font-family: 'Shojumaru', cursive;
@@ -35,18 +67,56 @@ h1, h2, h3 {
 	font-size: 7em;
 }
 
-ul li{
-	font-size: 3em;
-	display: inline;
+
+h2, h3 {
+	text-align: center;
 }
 
-p{
+h3 {
+	word-spacing:20px;
+	text-indent:20px;
+	text-transform:capitalize
+}
+
+
+
+
+/*----- Paragraphs -----*/
+
+
+p {
 	color:#b708fb;
 	background: #000000;
 	font: normal normal normal 2em/1.9 'Mystery Quest', cursive;
-	float: right;
 }
 
-div {
-border: 1px groove #18a0df;
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-family: 'Shojumaru', cursive;
+	color:#058aff;
+}
+
+
+/*----- List -----*/
+
+
+
+
+
+/*----- Image -----*/
+img {
+	float: left;
+	border: 22px ridge #00ff23;
+	opacity: .85;
+	margin: 0 auto;
+	display: block;
+	hover: blink;
+}
+
+#saturn {
+
+	width: 100%;
 }
