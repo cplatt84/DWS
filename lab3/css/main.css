@@ -1,0 +1,205 @@
+
+/*--------------- =Reset ---------------------*/
+
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*--------------- =Main ---------------------*/
+
+body{
+	background: url("http://subtlepatterns.com/patterns/square_bg.png") repeat;
+	margin: 0;
+	
+}
+
+#main-content {
+	background: #ffffff;
+	padding: 20px;
+	margin: 75px 0 0 0;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	-webkit-box-shadow:  0px 0px 10px 5px #e8e8e8;
+    box-shadow:  0px 0px 10px 5px #e8e8e8;
+    background: white;
+}
+
+
+/*--------------- =Navigation ---------------------*/
+
+#nav {
+	overflow: hidden;
+	background: #957f67;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+}
+
+#nav li {
+	list-style: none;
+	float: left;
+}
+
+#nav li a{
+	color: white;
+	font: 1.2em/1.1 "Helvetica", sans-serif;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+}
+
+#nav li a:hover{
+	background: #614221;
+}
+
+#nav ul{
+	margin: 0 0 0 135px;
+}
+
+
+
+/*--------------- =Headers ---------------------*/
+
+h1, h2, h3{
+	color: #614221;
+	font-family: 'Henny Penny', cursive;
+	border-bottom: 2px solid #dedede;
+}
+
+h2, h3 {
+	margin-top: 30px;
+}
+
+#sinbad{
+	clear: both;
+}
+
+
+
+/*--------------- =Banner ---------------------*/
+
+#banner{
+	background: white;
+	padding: 10px 20px;
+	position: relative;
+}
+
+#banner #logo{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+/*--------------- =Images ---------------------*/
+
+
+#gallery {
+	width: 460px;
+	float: left;
+}
+
+#gallery li{
+	margin-right: 10px;
+	float: left;	
+}
+
+#galleryLiger{
+	margin: 20px 0;
+	padding: 10px;
+	height: 100px;
+	background: #dedede;
+}
+
+#hercules{
+	height: 188px;
+}
+
+#herculesImg{
+	float: left;
+	width: 250px;
+}
+
+#herculesTxt{
+	float: left;
+	padding-left: 10px;
+	width: 650px;
+}
+
+#herculesTxt p{
+	margin: 0;
+}
+
+/*--------------- =Paragraphs ---------------------*/
+
+p{
+	text-indent: 25px;
+}
+
+
+/*--------------- =List ---------------------*/
+
+#seeAlso{
+	width: 400px;
+	float: left;
+}
+
+#seeAlso h3{
+	line-height: 0;
+	margin-top: 10px;
+}
+
+/*--------------- =Footer ---------------------*/
+
+#footer{
+	background: #957f67;
+	color: white;
+	text-align: center;
+	padding: 2px 0;
+}
+
