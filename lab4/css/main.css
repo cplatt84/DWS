@@ -278,9 +278,12 @@ aside li{
 
 /*--------------- =Button ---------------------*/
 
+
 .css3button{
-	margin-right: 40px;
+	margin-right: 50px;
 }
+
+
 a.css3button {
 	float: right;
 	text-decoration: none;
@@ -317,7 +320,7 @@ a.css3button {
 
 a.css3button:hover {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	color: #ffffff;
 	padding: 11px 20px;
 	background: -moz-linear-gradient(
