@@ -1,0 +1,356 @@
+
+/*--------------- =Reset ---------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, dd, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, ol, ul, li, fieldset, 
+form, label, legend, table, caption, tbody, 
+tfoot, thead, tr, th, td, article, aside, canvas, 
+details, embed, figure, figcaption, footer, header, 
+hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*--------------- =Main ---------------------*/
+
+body{
+	background-image: url("../images/background.jpg"), url("../images/square_bg.png");
+	background-position: top center, top left;
+	background-repeat: no-repeat, repeat;
+	background-color: #000000;
+}
+
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+    box-shadow:  0px 0px 30px #bdfff9;
+    color: white;
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #171819 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#171819)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#171819 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#171819 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#171819 100%); /* IE10+ */
+	background: linear-gradient(top,  #000000 0%,#171819 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#171819',GradientType=0 ); /* IE6-9 */
+
+}
+
+aside{
+	clear:both;
+	margin-top: 20px;
+}
+/*--------------- =Navigation ---------------------*/
+
+#logo{
+	float:left;
+	display: block;
+	height: 100px;
+	width: 300px;
+	text-indent: -99999px;
+	background-size: 300px;
+	background-image: url(../images/mainlogo.jpg);
+	padding: 0;
+	margin-top: 15px;
+}
+ 
+
+nav{
+	padding: 0;
+	float: right;
+	overflow: hidden;
+	width: 639px;
+	height: 100px;
+	margin-top: 30px;
+}
+
+nav li{
+	float: left;
+}
+
+nav a{
+	height: 100px;
+	width: 200px;
+	display: block;
+	background: url(../images/nav_bg.jpg) no-repeat 0 0;
+	text-indent: -999999px;
+}
+
+/*------------------------------ Product Button */
+
+#product a{
+	background-position: 0 0; 
+}
+
+#product a:hover{
+	background-position: 0px -100px; 
+}
+
+#product a:active{
+	background-position: 0px -200px; 
+}
+
+/*------------------------------ Shop Button */
+#shop a{
+	background-position: -200px 0; 
+}
+
+#shop a:hover{
+	background-position: -200px -100px; 
+}
+
+#shop a:active{
+	background-position: -200px -200px; 
+}
+
+/*------------------------------ Support Button */
+#support a{
+	background-position: -400px 0; 
+}
+
+#support a:hover{
+	background-position: -400px -100px; 
+}
+
+#support a:active{
+	background-position: -400px -200px; 
+}
+
+
+#cta{
+	clear:both;
+}
+
+/*--------------- =Headers ---------------------*/
+
+h1, h2, h3 {
+	font-family: 'Syncopate', sans-serif;
+	border-bottom: 2px solid #ffffff;
+}
+
+h1{
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h1#logo{
+	border: none;
+}
+
+
+/*--------------- =Images ---------------------*/
+
+#keyboard{
+	width: 400px;
+	display: block;
+	float: left;
+	margin: 0 20px 20px 20px;
+}
+
+.gallery{
+	background: #202020;
+	padding: 20px;
+	height: 160px;
+	clear: both;
+	margin-top: 10px;
+}
+
+.gallery ul{
+	width: 700px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.gallery ul li{
+	float: left;
+	margin-right: 40px;
+}
+
+.gallery img{
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;   
+}
+
+.gallery img:hover{
+	-webkit-box-shadow:  0px 0px 10px 0px #3b9ec2;
+	box-shadow:  0px 0px 10px 0px #3b9ec2; 
+}
+
+
+
+/*--------------- =Paragraphs & Text ---------------------*/
+
+p{
+	padding: 10px;
+	text-align: justify;
+	line-height: 21px;
+}
+
+dl{
+	padding: 10px;
+	line-height: 21px;
+}
+
+dt{
+	border-bottom: 1px solid #696767;
+	font-weight: bold;
+}
+
+dd{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#razerInfo{
+	float: left;
+	clear:both;
+	margin-bottom: 20px;
+}
+
+.details, .gallery{
+	clear: left;
+	margin: 10px 0;
+}
+
+.details{
+	height: 270px;
+}
+
+#overview, #features{
+	float: left;
+	width: 440px;
+	margin: 0 20px;
+}
+
+aside ul{
+	list-style: square;
+	margin: 20px;
+}
+
+aside li{
+	line-height: 21px;
+}
+
+/*--------------- =Button ---------------------*/
+
+.css3button{
+	margin-right: 40px;
+}
+a.css3button {
+	float: right;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 11px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#5b878a 0%,
+		#000000 25%,
+		#292629);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#5b878a),
+		color-stop(0.25, #000000),
+		to(#292629));
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 3px solid #050505;
+	-moz-box-shadow:
+		-5px 3px 11px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(000,000,000,1);
+	-webkit-box-shadow:
+		-5px 3px 11px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(000,000,000,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		-1px 0px 0px rgba(255,255,255,0.2);
+	border: 1px solid #3b9ec2;
+	clear: both;
+}
+
+a.css3button:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 11px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#000000 0%,
+		#5b878a 99%,
+		#292629);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#000000),
+		color-stop(0.99, #5b878a),
+		to(#292629));
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow:
+		-5px 3px 11px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(000,000,000,1);
+	-webkit-box-shadow:
+		-5px 3px 11px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(000,000,000,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		-1px 0px 0px rgba(255,255,255,0.2);
+}
+
+/*--------------- =Footer ---------------------*/
+
+footer{
+	padding: 0 0;
+	background: #202020;
+}
+
+footer p{
+	text-align: center;
+}
