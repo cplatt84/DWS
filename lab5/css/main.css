@@ -403,7 +403,7 @@ color: #ffffff;
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) /* I was instructed by Mark & Chelsea to go with 480px instead of 320px because my text would not wrap below 480. */{
 
 #nav {
 	overflow: hidden;
