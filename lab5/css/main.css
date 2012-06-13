@@ -1,0 +1,413 @@
+
+/*--------------- =Reset ---------------------*/
+
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -----------------=HTML------------ */
+
+html{
+	font-size: 16px;
+}
+
+/*--------------- =Main ---------------------*/
+
+body{
+	background: url("http://subtlepatterns.com/patterns/square_bg.png") repeat;
+	margin: 0;
+	font-size: 62.5%;
+}
+
+#main-content {
+	background: #ffffff;
+	padding: 20px 02.0833333%; /* 20 / 960 */
+	margin: 07.8125% 0 0 0; /* 75 / 960 */
+}
+
+#wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+	-webkit-box-shadow:  0px 0px 10px 5px #e8e8e8;
+	-moz-box-shadow:  0px 0px 10px 5px #e8e8e8;
+    box-shadow:  0px 0px 10px 5px #e8e8e8;
+    background: white;
+}
+
+
+/*--------------- =Navigation ---------------------*/
+
+#nav {
+	overflow: hidden;
+	background: #957f67;
+	position: absolute;
+	top: 40px; /* 40 / 960 */
+	left: 0;
+	width: 100%;
+}
+
+#nav li {
+	list-style: none;
+	float: left;
+	margin-left: 4.1666667%;
+}
+
+#nav li a{
+	color: white;
+	font: 2em/1.1 "Helvetica", sans-serif;
+	text-decoration: none;
+	display: block;
+	line-height: 1.6em;
+}
+
+#nav li a:hover{
+	background: #614221;
+}
+
+#nav ul{
+	margin: 0 0 0 135px;
+}
+
+
+
+/*--------------- =Headers ---------------------*/
+
+h1, h2, h3{
+	color: #614221;
+	font-family: 'Henny Penny', cursive;
+	border-bottom: 2px solid #dedede;
+}
+
+h1{
+	font-size: 2.4em;
+}
+
+h2{
+	font-size: 2.2em;
+}
+
+h3{
+	font-size:1.8em;
+}
+
+h2, h3 {
+	margin-top: 30px;
+}
+
+#sinbad{
+	clear: both;
+}
+
+
+
+/*--------------- =Banner ---------------------*/
+
+#banner{
+	background: white;
+	padding: 10px 2.0833333%;
+	position: relative;
+}
+
+#banner #logo{
+	position: absolute;
+	top: 10px;
+	left: 2.0833333%;
+}
+
+/*--------------- =Images ---------------------*/
+
+
+#gallery {
+	width: 47.9166667%; /* 460 / 960 */
+	float: left;
+}
+
+#gallery li{
+	margin-right: 02.17391304%;
+	float: left;
+	width: 31.15941996%	
+}
+
+#galleryLiger{
+	margin: 20px 0;
+	padding: 10px 1.0416667%;
+/* 	height: 100px; */
+overflow: hidden;
+	background: #dedede;
+}
+
+#hercules{
+	height: 188px;
+}
+
+#herculesImg{
+	float: left;
+	width: 26.0416667%;
+}
+
+#herculesImg img{
+	width: 100%;	
+}
+
+#herculesTxt{
+	float: left;
+	padding-left: 10px;
+	width: 67.7083333%;
+	overflow: hidden;
+}
+
+#herculesTxt p{
+	margin: 0;
+}
+
+
+#gallery img{
+	width: 100%;	
+}
+
+/*--------------- =Paragraphs ---------------------*/
+
+p{
+	text-indent: 2.6041667%;
+	font-size: 1.6em;
+	line-height: 1.2em;
+}
+
+
+#coloursTxt{
+		clear: left;
+}
+
+
+/*--------------- =List ---------------------*/
+
+li{
+	font-size: 1.6em;
+}
+
+#seeAlso{
+	width: 41.6666667%;
+	float: left;
+}
+
+#seeAlso h3{
+	line-height: 0;
+	margin-top: 10px;
+}
+
+/*--------------- =Footer ---------------------*/
+
+#footer{
+	background: #957f67;
+	color: white;
+	text-align: center;
+	padding: 2px 0;
+	width: 100%;
+}
+
+
+
+/* --------------------------- Media Queries ----------------------*/
+
+@media screen and (max-width: 960px){
+
+	#wrapper{
+		width: 100%;
+	}
+	
+	#ligers{
+		float:left;
+		width: 300px;
+		margin: 15px 40px 0 20px;
+	}
+	
+	#size{
+		float:left;
+		width: 50%;
+	}
+	
+	#galleryLiger{
+		clear: left;
+	}
+	
+	#nav li {
+		margin-left: 10%;
+	}
+	
+	#nav li a{
+		font-weight: bolder;
+	}
+	
+	#gallery {
+		width: 67.9166667%; /* 460 / 960 */
+	}
+
+	#gallery li{
+		margin-right: 02.17391304%;
+		width: 31.15941996%	
+	}
+	
+	#seeAlso{
+		width: 21.6666667%;
+	}
+	
+}
+
+
+@media screen and (max-width: 768px){
+	
+	#wrapper{
+		width: 100%;
+	}
+	
+	#ligers{
+		float:left;
+		width: 250px;
+		margin: 15px 40px 0 20px;
+	}
+	
+	#size{
+		float:left;
+		width: 50%;
+	}
+	
+	#galleryLiger{
+		clear: left;
+	}
+	
+	#nav li {
+		margin-left: 8%;
+	}
+	
+	#nav li a{
+		font-weight: normal;
+	}
+	
+	#gallery {
+		width: 67.9166667%; /* 460 / 960 */
+	}
+
+	#gallery li{
+		margin-right: 01.17391304%;
+		width: 31.15941996%	
+	}
+	
+	#seeAlso{
+		width: 21.6666667%;
+	}
+		
+
+}
+
+
+@media screen and (max-width: 600px){
+
+	#wrapper{
+		width: 100%;
+	}
+
+	
+	#nav {
+		overflow: hidden;
+		color:#947e67;
+		background: #ffffff;
+	}
+	
+	#nav li {
+		float: right;
+		width: 100%;
+	}
+
+	#nav li a{
+		color: #957f67;
+	}
+	
+	#nav li a:hover{
+	background: #614221;
+	color: #ffffff;
+}
+
+	#ligers{
+		float:none;
+		width: 100%;
+		margin: 140px 0px 0 0;
+	}
+	
+	#size{
+		float:none;
+		width: 100%;
+		margin: 10px 0px 0 0;
+	}
+	
+	#hercules{
+		height: 100%;
+	}
+
+	#herculesImg{
+		float: none;
+		width: 60.0416667%;
+	}
+
+	#herculesImg img{
+		width: 100%;	
+	}
+	
+	#herculesTxt{
+		float: none;
+		clear: both;
+		width: auto;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 480px){
+
+	#logo{
+		display: none;
+	}
+	
+	
+}
